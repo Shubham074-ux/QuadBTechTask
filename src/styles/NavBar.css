@@ -1,0 +1,28 @@
+/* styles/Navbar.css */
+.navbar {
+    background-color: #007bff; /* Blue background */
+    width: 100%; /* Full-width */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Sticks to the top */
+    top: 0;
+    left: 0;
+    height: 50px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Keeps it above other elements */
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px; /* Restricts max width */
+    margin: 0 auto;
+  }
+  
+  .navbar-logo {
+    font-size: 16px; /* Small size */
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+  
